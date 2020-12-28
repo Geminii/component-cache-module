@@ -1,0 +1,25 @@
+{
+  "name": "@nuxtjs/component-cache",
+  "version": "1.1.6",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "https://github.com/nuxt/modules",
+  "homepage": "https://github.com/nuxt-community/component-cache-module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "format": "yarn lint --fix",
+    "lint": "eslint . --ext js"
+  },
+  "dependencies": {
+    "lru-cache": "^6.0.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^5.0.0",
+    "eslint": "^7.16.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-prettier": "^3.3.0",
+    "prettier": "^2.2.1"
+  }
+}
